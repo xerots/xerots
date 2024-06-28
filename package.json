@@ -3,10 +3,32 @@
   "version": "0.0.1",
   "description": "Typescript & Express based API first Mini Framework.",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["typescript", "express", "api", "framework"],
+  "keywords": [
+    "typescript",
+    "express",
+    "api",
+    "framework"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "routing-controllers": "^0.10.4"
+  },
+  "bugs": {
+    "url": "https://github.com/xerots/xerots/issues"
+  },
+  "homepage": "https://github.com/xerots/xerots#readme"
 }
