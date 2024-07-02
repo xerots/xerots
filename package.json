@@ -1,10 +1,10 @@
 {
   "name": "xerots",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript & Express based API first Mini Framework.",
   "main": "dist/index.js",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "build": "tsc",
@@ -25,7 +25,8 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "routing-controllers": "^0.10.4"
+    "routing-controllers": "^0.10.4",
+    "xerots": "~0.0.2"
   },
   "bugs": {
     "url": "https://github.com/xerots/xerots/issues"
